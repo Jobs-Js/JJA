@@ -1,23 +1,17 @@
 <br />
 <div align="center">
-    <img src="https://github.com/Jobs-Js/JJA/assets/120389195/16ae59e3-ef39-43e9-a06d-7d245d393d4d" alt="Logo" width="200">
-  </a>
 
-  <h3 align="center">JJA(JsJobs Archive)</h3>
+   <img src="https://github.com/Jobs-Js/JJA/assets/102240503/668ab3de-ec37-460f-90dc-d3f721c68997" alt="overview">
+
+  <h3 align="center">📚JJA(JsJobs Archive)📚</h3>
 
   <p align="center">
-'Js-Jobs' 스터디 그룹의 활동을 아카이빙하고 학습 및 공유를 위한 웹사이트입니다.
+'Js-Jobs' 스터디 그룹의 활동을 아카이빙하여 책장 속 책으로 표현한 웹사이트입니다.
     <br />
     <br />
-    <!-- 배포 링크 추가 -->
-    <a href=""><strong>JJA 홈페이지 바로가기 »</strong></a>
+    <a href="https://jsjobs-archive.netlify.app/"><strong>JJA 홈페이지 바로가기 »</strong></a>
   </p>
 </div>
-
-## Overview
-
-<!-- 표지 -->
-<img src="" width="600">
 
 ## Contributors
 
@@ -30,10 +24,11 @@
 
 ## Technologies Used
 
--   React
--   JavaScript
--   emotion
--   webpack
+<img src="https://img.shields.io/badge/react-61DAFB?style=for-the-badge&logo=react&logoColor=black">
+<img src="https://img.shields.io/badge/javascript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black">
+<img src="https://img.shields.io/badge/emotion-DB7093?style=for-the-badge&logo=styledcomponents&logoColor=white">
+<img src="https://img.shields.io/badge/webpack-8DD6F9?style=for-the-badge&logo=webpack&logoColor=black">
+<img src="https://img.shields.io/badge/yarn-2C8EBB?style=for-the-badge&logo=yarn&logoColor=white">
 
 #### Clone the repository
 
@@ -52,3 +47,55 @@ yarn install
 ```sh
 yarn dev
 ```
+
+## File Folder Structure
+
+
+
+```bash
+📚 JJA
+├─ public
+│  ├─ favicon.ico
+│  └─ index.html
+└─ src
+  ├── App.js
+  ├── assets
+  │   ├── fonts
+  │   └── images
+  ├── components
+  │   ├── CircleButton
+  │   │   └── CircleButton.jsx
+  │   ├── Header
+  │   │   └── Header.jsx
+  │   └── Spinner
+  │       └── Spinner.jsx
+  ├── db
+  │   ├── chapter.json
+  │   ├── content.json
+  │   └── pptImg.json
+  ├── index.js
+  ├── pages
+  │   ├── BookcontentsPage
+  │   │   ├── ChapterPage
+  │   │   │   ├── ChapterPage.jsx
+  │   │   │   └── ChapterPageStyle.jsx
+  │   │   └── IndexPage
+  │   │       ├── IndexPage.jsx
+  │   │       └── IndexPageStyle.jsx
+  │   ├── ErrorPage
+  │   │   └── ErrorPage.jsx
+  │   ├── InformationPage
+  │   │   └── InformationPage.jsx
+  │   ├── MainPage
+  │   │   ├── MainPage.jsx
+  │   │   └── MainPageStyle.jsx
+  │   ├── RootLayout.jsx
+  │   └── Router.jsx
+  ├── style
+  │   ├── globalStyle.js
+  │   └── theme.js
+  └── utils
+    └── debounce.js
+```
+
+
