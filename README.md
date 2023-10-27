@@ -1,70 +1,101 @@
-# Getting Started with Create React App
+<br />
+<div align="center">
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+   <img src="https://github.com/Jobs-Js/JJA/assets/102240503/668ab3de-ec37-460f-90dc-d3f721c68997" alt="overview">
 
-## Available Scripts
+  <h3 align="center">📚JJA(JsJobs Archive)📚</h3>
 
-In the project directory, you can run:
+  <p align="center">
+'Js-Jobs' 스터디 그룹의 활동을 아카이빙하여 책장 속 책으로 표현한 웹사이트입니다.
+    <br />
+    <br />
+    <a href="https://jsjobs-archive.netlify.app/"><strong>JJA 홈페이지 바로가기 »</strong></a>
+  </p>
+</div>
 
-### `npm start`
+## Contributors
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+<table>
+  <tr>
+        <td align="center"><a href="https://github.com/ony540"><img src="https://avatars.githubusercontent.com/u/102240503?v=4" width="100px" alt=""/><br /><sub><b>오나영</b></sub></a><br /></td>
+        <td align="center"><a href="https://github.com/eunjoo0311"><img src="https://avatars.githubusercontent.com/u/120389195?v=4" width="100px"  alt=""/><br /><sub><b>이은주</b></sub></a><br /></td>
+  </tr>
+</table>
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Technologies Used
 
-### `npm test`
+<img src="https://img.shields.io/badge/react-61DAFB?style=for-the-badge&logo=react&logoColor=black">
+<img src="https://img.shields.io/badge/javascript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black">
+<img src="https://img.shields.io/badge/emotion-DB7093?style=for-the-badge&logo=styledcomponents&logoColor=white">
+<img src="https://img.shields.io/badge/webpack-8DD6F9?style=for-the-badge&logo=webpack&logoColor=black">
+<img src="https://img.shields.io/badge/yarn-2C8EBB?style=for-the-badge&logo=yarn&logoColor=white">
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+#### Clone the repository
 
-### `npm run build`
+```sh
+git clone https://github.com/Jobs-Js/JJA.git
+```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+#### Install dependencies
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+```sh
+yarn install
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+#### Project Start
 
-### `npm run eject`
+```sh
+yarn dev
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## File Folder Structure
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+```bash
+📚 JJA
+├─ public
+│  ├─ favicon.ico
+│  └─ index.html
+└─ src
+  ├── App.js
+  ├── assets
+  │   ├── fonts
+  │   └── images
+  ├── components
+  │   ├── CircleButton
+  │   │   └── CircleButton.jsx
+  │   ├── Header
+  │   │   └── Header.jsx
+  │   └── Spinner
+  │       └── Spinner.jsx
+  ├── db
+  │   ├── chapter.json
+  │   ├── content.json
+  │   └── pptImg.json
+  ├── index.js
+  ├── pages
+  │   ├── BookcontentsPage
+  │   │   ├── ChapterPage
+  │   │   │   ├── ChapterPage.jsx
+  │   │   │   └── ChapterPageStyle.jsx
+  │   │   └── IndexPage
+  │   │       ├── IndexPage.jsx
+  │   │       └── IndexPageStyle.jsx
+  │   ├── ErrorPage
+  │   │   └── ErrorPage.jsx
+  │   ├── InformationPage
+  │   │   └── InformationPage.jsx
+  │   ├── MainPage
+  │   │   ├── MainPage.jsx
+  │   │   └── MainPageStyle.jsx
+  │   ├── RootLayout.jsx
+  │   └── Router.jsx
+  ├── style
+  │   ├── globalStyle.js
+  │   └── theme.js
+  └── utils
+    └── debounce.js
+```
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
