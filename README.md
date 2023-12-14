@@ -13,6 +13,11 @@
   </p>
 </div>
 
+|PC|Mobile|
+|:----:|:----:|
+|![ezgif com-video-to-gif-converted (1)](https://github.com/Jobs-Js/JJA/assets/120389195/0d65d41e-8b20-4327-8865-3d8978e29f5f)|![ezgif com-video-to-gif-converted (2)](https://github.com/Jobs-Js/JJA/assets/120389195/27433993-ca65-4756-a5d4-6774477f60c0)|
+|![ezgif com-video-to-gif-converted (4)](https://github.com/Jobs-Js/JJA/assets/120389195/b11bdccc-0bbc-4f3f-b72c-5affa962a7be)|![ezgif com-video-to-gif-converted (3)](https://github.com/Jobs-Js/JJA/assets/120389195/23598a06-708a-411d-a674-77570d1db2ac)|
+
 ## Contributors
 
 <table>
